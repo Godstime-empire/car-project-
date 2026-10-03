@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+body{
+  background-color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* navigation */
+
+
+.nav-list a {
+  color: white;
+  font-size: 20px;
+  
+
+
+}
+
+.nav-list {
+  padding-left: 50%;
+  gap: 50px;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: bold;
+  color: red;
+}
+
+.mynav {
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+  
+
+}
+
+/* first */
+#first {
+  height: 100vh;
+  background-image: url(../images/2151955583.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   position: relative;
+ 
+
+}
+
+.first-content {
+  padding-top: 150px;
+  color: white;
+  padding-left: 120px;
+
+}
+
+#first h1 {
+  font-size: 80px;
+  
+
+}
+
+span {
+  color: red;
+}
+
+.btn {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+ 
+}
+.btn:hover {
+    background: white;
+    color: #ef3340;
+}
+
+.firstbox {
+  padding: 30px;
+  transition: 0.3s ease;
+   color: white;
+}
+
+.firstbox img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+
+
+}
+
+
+
+/* second */
+#second {
+  padding: 50px;
+ 
+}
+
+.second-content {
+  text-align: center;
+color: red;
+  
+}
+
+.second-content h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  
+}
+
+.second-content p {
+  font-size: 18px;
+  
+ 
+}
+
+.firstbox:hover {
+  transform: translateY(-8px);
+
+}
+.car-info{
+   color: white;
+}
+
+.btn2 {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn2:hover {
+    background: white;
+    color: #ef3340;
+}
+
+
+
+
+
+
+.img img{
+    height: 400px;
+    object-fit: cover;
+}
+.img h2{
+    color: white;
+    font-size: 70px;
+}
+.img p{
+   color: #c92330;
+   font-size: 20px;
+
+}
+.img a{
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+    color: #c92330;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.img a:hover{
+    background-color: #c92330;
+    color: white;
+}
+
+
+/* third */
+#third {
+  padding: 50px;
+
+
+}
+
+.third-content {
+  text-align: center;
+  color: red;
+}
+
+.third-row img {
+  height: 100%;
+  object-fit: cover;
+   border-radius: 10px;
+   transition: 0.5s;
+   cursor: pointer;
+ 
+}
+.third-box{
+  position: relative;
+   overflow: hidden;
+   height: 300px;
+   padding-top: 50px;
+
+}
+.third-box img:hover{
+  
+    border: 2px solid #ef3340;
+    transform: translateY(-10px);
+
+
+}
+.box-content{
+  position: absolute;
+  bottom: 20px;
+  left: 22px;
+  z-index: 1;
+  color: white;
+}
+
+
+
+/* fourth  */
+#fourth {
+  padding: 50px;
+
+}
+
+.fourth-content {
+  text-align: center;
+   color: white;
+}
+
+.fourth-box {
+  margin-top: 50px;
+  text-align: center;
+  padding: 50px;
+  border: 1px solid #d9eafc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   color: white;
+
+}
+
+.fourth-box i {
+  font-size: 50px;
+  color: red;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+/* fifth */
+#fifth {
+  padding: 50px;
+  background-color: #f8f9fa;
+}
+
+.fifth-content {
+  text-align: center;
+}
+
+.fifth-box h4 {
+  padding-top: 50px;
+  text-align: center;
+
+}
+
+.fifth-box p {
+  text-align: center;
+
+
+}
+
+.ball {
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  border-radius: 50%;
+  padding: 20px;
+  color: white;
+
+
+}
+#end{
+  padding: 50px;
+  background-color: #292929;
+  color: white;
+}
+.socials{
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* .end-content{
+  text-align: center;
+} */
+#end i{
+  font-size: 30px;
+  
+  gap: 10px;
+}
+.last{
+  display: flex;
+  gap: 10px;
+}
+.end-content a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #ef3340;
+
+}
+.vet a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #ef3340;
+}
+.kit{
+  margin: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .mynav {
+  z-index: 1;
+  width: 100%;
+  position: static;
+  background-color:black;
+  
+
+}
+.nav-list {
+  padding-left: 0;
+}
+  #first {
+    height: 70vh;
+  }
+
+  #first h1 {
+    font-size: 40px;
+  }
+
+  .logo {
+    font-size: 30px;
+  }
+
+  .first-content {
+    padding-left: 20px;
+    padding-top: 100px;
+  }
+  .firstbox {
+  
+   border: none;
+  }
+  .firstbox img{
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .img h2{
+    font-size: 35px;
+  }
+  .kit{
+    margin: 0;
+    padding: 0;
+  }
+  .firstbox{
+    padding: 0;
+  }
+ 
+
+}
